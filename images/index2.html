@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pilot project</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/nanoscroller.css">
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/jquery.nanoscroller.js"></script>
+    <style>
+        body {
+            height: 100vh;
+            overflow: hidden;
+            /* background-image: url(assets/images/opera.png);
+            background-repeat: no-repeat;
+            background-size: cover; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .view-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .qrcode-container {
+            padding: 20px;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 5px -1px rgb(0 0 0 / 14%), 0 6px 10px 0 rgb(0 0 0 / 10%), 0 1px 18px 0 rgb(0 0 0 / 8%);
+            border-radius: 10px;
+        }
+
+        .mock-up {
+            width: 500px;
+            height: 800px;
+            background-image: url(assets/images/mob-mockup.png);
+            background-size: 450px 750px;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content {
+            width: 385px;
+            margin: 0px 0 0 0;
+            overflow: auto;
+            height: 713px;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            border-radius: 32px;
+        }
+
+        iframe {
+            width: 386px;
+            height: 150vh;
+            border: 0px;
+        }
+
+        .nano {
+            width: 385px;
+            height: 713px;
+        }
+
+        .nano .nano-pane {
+            background: #888;
+        }
+
+        .nano .nano-slider {
+            background: #111;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            font-size: 15px;
+            text-align: center;
+            padding: 0;
+            color: #88b1e4;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $(".nano").nanoScroller();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="view-wrapper">
+        <div class="qrcode-container">
+            <div>
+                <h3>For best view please scan this QR code</h3>
+                <img src="assets/images/qrcode.png" alt="" />
+            </div>
+        </div>
+        <div class="mock-up">
+            <div class="content">
+                <div class="nano">
+                    <div class="nano-content">
+                        <iframe src="http://bdtemplate.com/exam/index2.html"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

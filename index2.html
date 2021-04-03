@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+  <meta name="author" content="BD template">
+  <title>Meeting Arrengment</title>
+  <meta name="title" content="">
+  <meta name="description" content="BD template" />
+  <meta name="Copyright" content="All Rights Reserved.">
+  <link href="images/favicon.png" type="image/x-icon" rel="shortcut icon" />
+  <link href="https://fonts.googleapis.com/css?family=Overpass:400,600,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="modal" id="sound-modal" onclick="hideModal('sound-modal')">
+      <img class="logo" src="images/logo.svg" alt="">
+      <div class="">
+        <div id="slideshow">
+          <div>
+            <img src="images/banner/banner02.svg">
+          </div>
+          <div>
+            <img src="images/banner/banner03.svg">
+          </div>
+          <div>
+            <img src="images/banner/banner01.svg">
+          </div>
+        </div>
+      </div>
+      <img onclick="location.href='http://192.168.0.103/biplab/mob-app/git/job-search/job-category.html';" class="go"
+        src="images/play.svg" alt="">
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+      window.onload = function () {
+        $('.modal').fadeIn(0);
+        $('body').toggleClass('no-scroll');
+      };
+      $(window).ready(function () {
+        setInterval(function () {
+          $('.modal').addClass('loaded');
+        }, 2000);
+      });
+
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function () {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      }, 3000);
+    </script>
+
+</body>
+
+</html>

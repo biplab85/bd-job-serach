@@ -1,0 +1,5 @@
+http://tdemo.pro/
+
+https://codepen.io/caseymhunt/pen/kertA
+
+https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/

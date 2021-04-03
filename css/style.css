@@ -1,0 +1,1678 @@
+:root {
+  --app-default-color: #394197;
+  --app-default-spacce: 14px;
+  --app-default-font: 4vw;
+  --w-h-50: 50px;
+  --app-default-shadow: 0 2px 8px 0 rgba(48, 56, 59, 0.08)
+}
+
+@font-face {
+  font-family: SolaimanLipi;
+  src: url(../webfonts/SolaimanLipi.ttf);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+  font-family: SolaimanLipi !important;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b, strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+  vertical-align: middle;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button, input, optgroup, select, textarea {
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button, input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button, select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.m-0 {
+  margin: 0px !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #231f20;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #f5f6fb;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.login-registration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.common-btn {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  /* padding: 22px 15px 15px 2px; */
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--app-default-color);
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  display: block;
+  outline: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-registration .common-btn {
+  width: 50%;
+}
+
+.login-registration .registration {
+  clip-path: polygon(0 0, 100% 0%, 92% 100%, 0% 100%);
+}
+
+.login-registration .login {
+  clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  z-index: 99999;
+}
+
+.modal-inner {
+  width: 450px;
+  padding: 2rem 1rem 1rem;
+  background: #fff;
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -ms-transform: translate(-50%, -30%);
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+  -webkit-box-shadow: 0 0 15px -3px rgba(27, 30, 26, 0.25);
+  -ms-box-shadow: 0 0 15px -3px rgba(27, 30, 26, 0.25);
+  box-shadow: 0 0 15px -3px rgba(27, 30, 26, 0.25);
+  text-align: center;
+}
+
+.modal-footer {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 15px 0 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.modal-footer span {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 10px;
+  font-weight: normal;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+
+.modal.loaded .modal-footer span {
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 10px;
+  font-weight: normal;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+
+.modal .logo {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  width: 35%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.modal img:nth-child(2) {
+  display: none;
+}
+
+.modal .go {
+  display: none;
+  opacity: 0;
+}
+
+.modal.loaded .go {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  bottom: 5vw;
+  left: 50%;
+  width: 15%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+  animation: scale 1.25s linear;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+  50% {
+    transform: scale(0.5) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+}
+
+.home-header {
+  /* background-color: var(--app-default-color); */
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+}
+
+.home-header img {
+  margin: auto;
+  width: 30vw;
+}
+
+.container {
+  padding-top: calc(var(--w-h-50) + 10px);
+  padding-bottom: calc(var(--w-h-50) + 10px);
+  padding-left: var(--app-default-spacce);
+  padding-right: var(--app-default-spacce);
+}
+
+.main-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--app-default-color);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.appointment-form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 15px;
+}
+
+.form-label, .sub-title {
+  font-size: 14px;
+  color: #5a5a5a;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 3px;
+  resize: none;
+  border: 1px solid #d2d5e7;
+  color: #5a5a5a;
+  width: 100%;
+  font-size: 14px;
+  min-height: 46px;
+  box-shadow: none;
+  background: #fff;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 0 15px -3px #d2d5e7;
+  -ms-box-shadow: 0 0 15px -3px #d2d5e7;
+  box-shadow: 0 0 15px -3px #d2d5e7;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.header {
+  margin: 0;
+  padding: 6px 15px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: var(--app-default-color);
+  height: var(--w-h-50);
+  z-index: 9;
+}
+
+.header a img {
+  vertical-align: middle;
+  margin-right: 20px;
+  height: 14px;
+}
+
+.radio-box {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #090909;
+  font-weight: 600;
+  padding: 0;
+  width: 49%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.radio-box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-mark {
+  position: relative;
+  display: none;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  background: transparent;
+  border-radius: 50px;
+  border: 2px solid #afafaf;
+  transform: translateY(-1px);
+  -webkit-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.radio-box input:checked~.radio-mark {
+  background-color: var(--app-default-color);
+  border: 2px solid var(--app-default-color);
+}
+
+.radio-box input:checked~.label-text {
+  color: #fff;
+  background-color: var(--app-default-color);
+  border: 2px solid var(--app-default-color);
+}
+
+span.label-text {
+  padding: 12px 0 10px;
+  border-radius: 30px;
+  color: #868aa8;
+  border: 2px solid #868aa8;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.radio-mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 11px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.radio-box input:checked~.radio-mark:after {
+  display: block;
+}
+
+.confirmation-box {
+  padding: 5vh;
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.confirmation-box h2 {
+  font-size: 32px;
+  color: var( --app-default-color);
+  font-weight: 700;
+}
+
+.confirmation-box p {
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+.profile-frame {
+  margin: auto;
+  height: 150px;
+  display: block;
+}
+
+.camera-tap-box {
+  margin: 0;
+  padding: 15px 0 0;
+  color: #5d6271;
+  font-weight: 500;
+  line-height: 35px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-tap-box img {
+  vertical-align: middle;
+  margin-right: 15px;
+  height: 16px;
+}
+
+.success-box {
+  text-align: center;
+}
+
+.approve-icon {
+  display: flex;
+  width: 66px;
+  height: 66px;
+  background: #21b76c;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.approve-icon img {
+  margin: auto;
+}
+
+.success-box h3 {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.success-box span {
+  font-size: 12px;
+  color: #606060;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 15px;
+}
+
+img.user-img {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  height: 130px;
+}
+
+.success-box h5 {
+  font-size: 14px;
+  color: #afafaf;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.success-box h2 {
+  font-size: 45px;
+  color: var( --app-default-color);
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.warning-msg {
+  font-size: 12px;
+  color: #5a5a5a;
+  padding: 40px 20px 0;
+  text-align: center;
+}
+
+.face-id input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+label.face-id {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin-top: 25px;
+}
+
+.sub-title {
+  margin-bottom: 10px;
+}
+
+.datepicker-box {
+  position: relative;
+}
+
+input.form-control.datepicker-input {
+  padding: 16px 10px 12px;
+  min-height: 60px;
+}
+
+.open-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  background-color: var(--app-default-color);
+  pointer-events: none;
+  color: #fff;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0 5px 5px 0;
+}
+
+.open-button button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.open-button button img {
+  height: 26px;
+}
+
+.ripplelink {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: 0;
+}
+
+.ripplelink:hover {
+  z-index: 1000;
+}
+
+.dr-list {
+  width: 100%;
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--app-default-shadow);
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.dr-list .dr-avator {
+  width: calc(var(--w-h-50) - 10px);
+  height: calc(var(--w-h-50) - 10px);
+  box-shadow: var(--app-default-shadow);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: var( --app-default-spacce);
+  font-size: var(--app-default-font);
+  font-weight: bold;
+  color: var(--app-default-color);
+}
+
+.dr-info {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.dr-info h3 {
+  font-size: var(--app-default-font);
+  margin: 0 0 1vw 0;
+  color: var(--app-default-color);
+}
+
+.dr-info h4 {
+  font-size: calc(var(--app-default-font) - 3px);
+  margin: 0 0 1vw 0;
+  color: #000;
+}
+
+.dr-info .details {
+  color: #989898;
+  font-size: 13px;
+  width: 100%;
+}
+
+.dr-info .details i {
+  margin-right: 8px;
+  color: var(--app-default-color);
+}
+
+.dr-info .details .vecancy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.dr-info .details .vecancy div {
+  width: 55%;
+}
+
+.dr-info .details .vecancy.location div {
+  width: 70%;
+}
+
+.dr-info .details .vecancy div:last-child {
+  text-align: right;
+  width: 45%;
+}
+
+.dr-info .details .vecancy.location div:last-child {
+  text-align: right;
+  width: 30%;
+}
+
+.date-time {
+  background-color: var(--app-default-color);
+  padding: 15px;
+  min-height: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.date-time div {
+  line-height: 12vw;
+  text-align: center;
+}
+
+.date-time span {
+  font-size: 8vw;
+  color: #fff;
+  display: block;
+  font-weight: bolder;
+}
+
+.app-dr-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  top: -27px;
+  border-radius: 10px;
+}
+
+.app-dr-info-avator {
+  background-color: #FFF;
+  width: 55px;
+  height: 55px;
+  margin: 0 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--app-default-color);
+}
+
+.app-dr-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.app-dr-info img.call-icon {
+  width: 26px;
+  height: 36px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.app-dr-comment {
+  margin: 0px auto;
+  width: 80%;
+}
+
+.app-dr-name {
+  font-size: 8vw;
+  color: var(--app-default-color);
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.app-dr-comment-content {
+  padding: 0;
+}
+
+.app-dr-comment-content h3 {
+  color: #b3b3b3;
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+
+.app-dr-comment-content .text {
+  background: #FFF;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 2px solid var(--app-default-color);
+  color: #9e9e9e;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.all-paper .text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-left: 2px solid #97e3f3;
+  background-color: #f1fdff;
+}
+
+.all-paper .text img {
+  width: 34px;
+  margin: 0 10px 0 0;
+}
+
+.accept-btn-group {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.accept-btn-group a {
+  background-color: var(--app-default-color);
+  height: 40px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: #FFF;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.accept-btn-group a.cancel {
+  background-color: #cdd0ec;
+  color: #a4b1f9;
+}
+
+.app-dr-wrapper {
+  position: relative;
+  height: 100vh;
+}
+
+.back {
+  background-image: url(../images/back.png);
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 15px;
+  z-index: 9;
+  background-size: 26px;
+  background-repeat: no-repeat;
+  top: 15px;
+}
+
+.data-time-ca {
+  width: 80%;
+  height: 280px;
+  background-image: url(../images/callander.png);
+  margin: 0px auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.data-time-ca h3 {
+  color: white;
+  position: absolute;
+  top: -31px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10vw;
+}
+
+.data-time-ca h4 {
+  color: #344a5f;
+  position: absolute;
+  top: 6px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20vw;
+}
+
+.data-time-ca h4 span {
+  font-size: 15px;
+}
+
+.address {
+  color: #b3b3b3 !important;
+  font-size: 14px !important;
+}
+
+.address span {
+  display: inline-block;
+  color: #344A60;
+  line-height: 6px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.dr-cell-no {
+  width: 100%;
+  background-color: rgb(0 0 0 / 46%);
+  padding: 10px;
+  /* border-radius: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* box-shadow: var(--app-default-shadow); */
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+
+.dr-cell-no.active {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+
+.dr-cell-no img {
+  width: 24px;
+  margin: 0 10px 0 0;
+}
+
+.dr-cell-no-close {
+  position: absolute;
+  display: block;
+  width: 50px;
+}
+
+.dr-cell-no-close {
+  position: absolute;
+  display: block;
+  width: 50px;
+  right: -17px;
+  cursor: pointer;
+}
+
+.loginForm {
+  position: absolute;
+  left: -800vw;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 42%);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+
+.loginForm.active {
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+  left: 0vw;
+}
+
+body.active .appointment-form {
+  opacity: 0.5;
+}
+
+body.active .back, body.active .date-time, body.active .app-dr-comment, body.active .app-dr-info, body.active .accept-btn-group, body.active .appointment-form, body.active .main-title, body.active .home-header img {
+  filter: blur(15px);
+}
+
+body.active .loginForm.active .appointment-form {
+  opacity: 1;
+  filter: none;
+  width: 83%;
+  position: relative;
+}
+
+body.active .loginForm.active .appointment-form .common-btn {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.loginFormClose {
+  display: inline-flex;
+  position: absolute;
+  top: -34px;
+  right: -7px;
+  background-color: #FFF;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-image: url(../images/times-circle-regular.svg);
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profile-header, .innder-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.profile-user, .profile-notification {
+  position: relative;
+  margin: 0 0 0 15px;
+}
+
+.profile-notification a, .profile-user a {
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33px;
+}
+
+.profile-user a {
+  font-size: 25px;
+}
+
+.profile-notification a {
+  font-size: 27px;
+}
+
+.profile-notification img {
+  width: 30px;
+}
+
+.profile-notification span {
+  position: absolute;
+  left: 7px;
+  top: 0px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.profile-user img {
+  width: 32px;
+}
+
+.meeting-perticipent-user {
+  width: 100%;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.meeting-perticipent-user .list {
+  border: 2px solid var(--app-default-color);
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 10px 10px 20px 20px;
+  box-shadow: var(--app-default-shadow);
+  position: relative;
+}
+
+.meeting-perticipent-user .list img {
+  width: 90%;
+  margin: 0;
+  border-radius: 10px 10px 20px 20px;
+}
+
+.meeting-perticipent-user .list .user-delete {
+  position: absolute;
+  top: -11px;
+  right: -15px;
+  background: #FFF;
+  border-radius: 100%;
+  border: 2px solid var(--app-default-color);
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/trash-alt-regular.svg);
+  color: #FFF;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile-image {
+  width: 110px;
+  height: 110px;
+  margin: 0px auto;
+  border-radius: 100%;
+  padding: 5px;
+  border: 3px solid var(--app-default-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.image-changer {
+  position: absolute;
+  background-image: url(../images/camera-retro-solid.svg);
+  /* top: 0; */
+  right: 0;
+  background-color: #FFF;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  z-index: 9;
+  border-radius: 100%;
+  bottom: 0px;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid var(--app-default-color);
+}
+
+.profile-info {
+  background-color: #FFF;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 15px;
+  margin: 25px 0 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.profile-info a {
+  color: #000;
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+.profile-info a.active {
+  color: var(--app-default-color);
+  opacity: 1;
+}
+
+.basic-info {
+  background-color: #FFF;
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.basic-info li {
+  border-bottom: 1px solid #e5ecef;
+  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
+}
+
+.basic-info label {
+  width: 100px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  color: var(--app-default-color);
+}
+
+.basic-info span {
+  font-size: 14px;
+}
+
+.footer-menu {
+  background-color: #FFF;
+  width: 100%;
+  padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 58px;
+  box-shadow: var(--app-default-shadow);
+}
+
+.footer-menu a {
+  color: var(--app-default-color);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a.middle {
+  background-color: #f5f6fb;
+  position: relative;
+  top: -17px;
+  width: 50px;
+  height: 74px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 22%;
+  color: #000;
+  padding: 0 0 14px 0;
+}
+
+.notification-list-container .dr-list a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+.job-list .dr-list a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  /* background-image: url(../images/arrow-right-solid.svg);
+  background-position: right 10px bottom 10px;
+  background-repeat: no-repeat;
+  background-size: 4vw; */
+}
+
+.meeting-accept {
+  position: relative;
+}
+
+.all-perticipent {
+  background: #FFF;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 2px solid var(--app-default-color);
+  color: #9e9e9e;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.all-perticipent h3 {
+  margin: 0 15px 0 0;
+}
+
+.all-perticipent span {
+  background-color: var(--app-default-color);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: #FFF;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+#slideshow {
+  top: 23%;
+  position: fixed;
+  width: 100%;
+  /* height: 240px; */
+  bottom: 50%;
+  margin: auto;
+}
+
+#slideshow>div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.header-title a {
+  color: #FFF;
+}
+
+.header-title span {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.section-title {
+  color: var( --app-default-color);
+  text-align: center;
+  margin: 0 0 3vw 0;
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+.choose-ctg {
+  padding-top: var(--app-default-spacce);
+}
+
+.cgt-cnt-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 var(--app-default-spacce) 0;
+}
+
+.choose-ctg .cgt-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  padding: 5vw 0;
+  background-color: #c3c6f1;
+  border-radius: 10px;
+}
+
+.choose-ctg .cgt-cnt.two {
+  background-color: #ebc3f1;
+}
+
+.choose-ctg .cgt-cnt.three {
+  background-color: #f1eac3;
+}
+
+.choose-ctg .cgt-cnt.four {
+  background-color: #f1c3c3;
+}
+
+.choose-ctg .cgt-cnt.five {
+  background-color: #c3dff1;
+}
+
+.choose-ctg .cgt-cnt.six {
+  background-color: #c3f1d2;
+}
+
+.cgt-image {
+  width: 25vw;
+  height: 25vw;
+  background: #FFF;
+  border-radius: 50px;
+  margin: 0 0 2vw 0;
+  border: 0.5vw solid var( --app-default-color);
+  padding: 3px;
+}
+
+.cgt-image img {
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50px;
+}
+
+.job-ctg-title {
+  display: block;
+  color: var( --app-default-color);
+  text-align: center;
+  font-size: var(--app-default-font);
+}
