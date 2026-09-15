@@ -1,0 +1,136 @@
+[     120ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     192ms] [LOG] [Fast Refresh] done in 181ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     290ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[     356ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   41236ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   41861ms] [ERROR] ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/profile/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[   42011ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   42275ms] [ERROR] ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/profile/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:3318
+[   42276ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/settings?_rsc=4AdqWRpmpZQXAEx-:0
+[   42300ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/settings?_rsc=4AdqWRpmpZQXAEx-:0
+[   42326ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/settings:0
+[   42452ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15305
+[   42565ms] Error: ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/profile/page.tsx
+
+
+    at <unknown> (Error: ./src/components/MenuRow.tsx:33:9)
+    at Object.getCompilationErrors (file://E:\wampserver\www\local-project\bd-job-serach\housingjob\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://E:\wampserver\www\local-project\bd-job-serach\housingjob\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://E:\wampserver\www\local-project\bd-job-serach\housingjob\node_modules\next\dist\server\dev\next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file://E:\wampserver\www\local-project\bd-job-serach\housingjob\node_modules\next\dist\server\dev\next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file://E:\wampserver\www\local-project\bd-job-serach\housingjob\node_modules\next\dist\server\base-server.js:1753:26)
+[   42582ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[   42639ms] [ERROR] ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/profile/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[   42639ms] [ERROR] ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/settings/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[   42753ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[   42896ms] [ERROR] ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/profile/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[   55874ms] [ERROR] ./src/components/MenuRow.tsx:33:9
+Expected ',', got 'ident'
+  31 |       </span>
+  32 |       <span
+> 33 |         className={`flex-1 text-[14.5px] font-semibold ${
+     |         ^^^^^^^^^
+  34 |           danger ? "text-accent" : "text-ink"
+  35 |         }`}
+  36 |       >
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/MenuRow.tsx
+    ./src/app/profile/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1945
+[   55906ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[   56100ms] [LOG] [Fast Refresh] done in 49ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:1226
+[   56287ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477
+[   56445ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1ybzpk2._.js:2477

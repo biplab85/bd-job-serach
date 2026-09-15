@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "My CV" [level=1] [ref=e10]
+      - button "Download" [ref=e12]:
+        - img [ref=e13]
+    - main [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: BP
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Biplab Paul
+          - paragraph [ref=e21]: Product Designer
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - img [ref=e24]
+          - text: biplab@example.com
+        - generic [ref=e27]:
+          - img [ref=e28]
+          - text: +880 1735 927356
+        - generic [ref=e30]:
+          - img [ref=e31]
+          - text: Dhaka, Bangladesh
+      - generic [ref=e34]:
+        - heading "Summary" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Product designer with 5 years crafting calm, useful mobile products. I care about systems, motion and the small details that make software feel human.
+      - generic [ref=e37]:
+        - heading "Experience" [level=2] [ref=e38]
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - paragraph [ref=e42]: Product Designer
+            - paragraph [ref=e43]: Finlytics
+            - paragraph [ref=e44]: 2022 — Present
+          - listitem [ref=e45]:
+            - paragraph [ref=e47]: UI Designer
+            - paragraph [ref=e48]: Brightlabs
+            - paragraph [ref=e49]: 2020 — 2022
+          - listitem [ref=e50]:
+            - paragraph [ref=e52]: Design Intern
+            - paragraph [ref=e53]: Studio Kaaj
+            - paragraph [ref=e54]: 2019 — 2020
+      - generic [ref=e55]:
+        - heading "Education" [level=2] [ref=e56]
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: B.Sc. in CSE
+          - paragraph [ref=e59]: BRAC University · 2015 — 2019
+      - generic [ref=e60]:
+        - heading "Skills" [level=2] [ref=e61]
+        - generic [ref=e62]:
+          - generic [ref=e63]: Product Design
+          - generic [ref=e64]: Figma
+          - generic [ref=e65]: Design Systems
+          - generic [ref=e66]: Prototyping
+          - generic [ref=e67]: User Research
+          - generic [ref=e68]: Webflow
+    - link "Edit CV" [ref=e70] [cursor=pointer]:
+      - /url: /cv/create
+      - img [ref=e71]
+      - text: Edit CV
+  - button "Open Next.js Dev Tools" [ref=e78] [cursor=pointer]:
+    - img [ref=e79]

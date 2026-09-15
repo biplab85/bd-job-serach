@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: L
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Recruiter
+          - paragraph [ref=e10]: Lumen Studio
+      - link "Switch to job seeker" [ref=e11] [cursor=pointer]:
+        - /url: /home
+        - img [ref=e12]
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - img [ref=e21]
+          - paragraph [ref=e24]: "2"
+          - paragraph [ref=e25]: Active posts
+        - generic [ref=e26]:
+          - img [ref=e28]
+          - paragraph [ref=e33]: "126"
+          - paragraph [ref=e34]: Applicants
+        - generic [ref=e35]:
+          - img [ref=e37]
+          - paragraph [ref=e40]: 3,480
+          - paragraph [ref=e41]: Views
+        - generic [ref=e42]:
+          - img [ref=e44]
+          - paragraph [ref=e47]: "9"
+          - paragraph [ref=e48]: New / week
+      - link "Post a new job" [ref=e50] [cursor=pointer]:
+        - /url: /employer/post-job
+        - img [ref=e51]
+        - text: Post a new job
+      - generic [ref=e52]:
+        - heading "Your job posts" [level=2] [ref=e54]
+        - generic [ref=e55]:
+          - link "Senior Product Designer Dhaka, BD · Full-time Active 48 applicants 1240 6 new" [ref=e56] [cursor=pointer]:
+            - /url: /employer/applicants?job=sr-product-designer
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - heading "Senior Product Designer" [level=3] [ref=e59]
+                - paragraph [ref=e60]: Dhaka, BD · Full-time
+              - generic [ref=e61]: Active
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - img [ref=e64]
+                - text: 48 applicants
+              - generic [ref=e69]:
+                - img [ref=e70]
+                - text: "1240"
+              - generic [ref=e73]: 6 new
+          - link "Frontend Engineer (React) Remote · Remote Active 32 applicants 980 3 new" [ref=e74] [cursor=pointer]:
+            - /url: /employer/applicants?job=frontend-engineer
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - heading "Frontend Engineer (React)" [level=3] [ref=e77]
+                - paragraph [ref=e78]: Remote · Remote
+              - generic [ref=e79]: Active
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - img [ref=e82]
+                - text: 32 applicants
+              - generic [ref=e87]:
+                - img [ref=e88]
+                - text: "980"
+              - generic [ref=e91]: 3 new
+          - link "Data Scientist, ML Dhaka, BD · Full-time Paused 19 applicants 540" [ref=e92] [cursor=pointer]:
+            - /url: /employer/applicants?job=data-scientist
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - heading "Data Scientist, ML" [level=3] [ref=e95]
+                - paragraph [ref=e96]: Dhaka, BD · Full-time
+              - generic [ref=e97]: Paused
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - img [ref=e100]
+                - text: 19 applicants
+              - generic [ref=e105]:
+                - img [ref=e106]
+                - text: "540"
+          - link "Content Strategist Chattogram, BD · Full-time Closed 27 applicants 720" [ref=e109] [cursor=pointer]:
+            - /url: /employer/applicants?job=content-strategist
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - heading "Content Strategist" [level=3] [ref=e112]
+                - paragraph [ref=e113]: Chattogram, BD · Full-time
+              - generic [ref=e114]: Closed
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - img [ref=e117]
+                - text: 27 applicants
+              - generic [ref=e122]:
+                - img [ref=e123]
+                - text: "720"
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - heading "Latest applicants" [level=2] [ref=e128]
+          - link "View all" [ref=e129] [cursor=pointer]:
+            - /url: /employer/applicants
+        - generic [ref=e130]:
+          - link "AK Ayesha Karim Senior Product Designer 94% Shortlisted" [ref=e131] [cursor=pointer]:
+            - /url: /employer/applicants/cand1
+            - generic [ref=e132]: AK
+            - generic [ref=e133]:
+              - paragraph [ref=e134]: Ayesha Karim
+              - paragraph [ref=e135]: Senior Product Designer
+            - generic [ref=e136]:
+              - generic [ref=e137]: 94%
+              - generic [ref=e138]: Shortlisted
+            - img [ref=e139]
+          - link "RU Rahim Uddin Product Designer 88% Interview" [ref=e141] [cursor=pointer]:
+            - /url: /employer/applicants/cand2
+            - generic [ref=e142]: RU
+            - generic [ref=e143]:
+              - paragraph [ref=e144]: Rahim Uddin
+              - paragraph [ref=e145]: Product Designer
+            - generic [ref=e146]:
+              - generic [ref=e147]: 88%
+              - generic [ref=e148]: Interview
+            - img [ref=e149]
+          - link "MR Mitu Rahman UX Designer 82% New" [ref=e151] [cursor=pointer]:
+            - /url: /employer/applicants/cand3
+            - generic [ref=e152]: MR
+            - generic [ref=e153]:
+              - paragraph [ref=e154]: Mitu Rahman
+              - paragraph [ref=e155]: UX Designer
+            - generic [ref=e156]:
+              - generic [ref=e157]: 82%
+              - generic [ref=e158]: New
+            - img [ref=e159]
+          - link "SH Sabbir Hasan Frontend Engineer 90% New" [ref=e161] [cursor=pointer]:
+            - /url: /employer/applicants/cand4
+            - generic [ref=e162]: SH
+            - generic [ref=e163]:
+              - paragraph [ref=e164]: Sabbir Hasan
+              - paragraph [ref=e165]: Frontend Engineer
+            - generic [ref=e166]:
+              - generic [ref=e167]: 90%
+              - generic [ref=e168]: New
+            - img [ref=e169]
+  - button "Open Next.js Dev Tools" [ref=e176] [cursor=pointer]:
+    - img [ref=e177]

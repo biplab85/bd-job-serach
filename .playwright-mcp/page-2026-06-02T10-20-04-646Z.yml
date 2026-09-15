@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Job details" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - button "Share" [ref=e12]:
+          - img [ref=e13]
+        - button "Save job" [ref=e19]:
+          - img [ref=e20]
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: L
+        - heading "Senior Product Designer" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Lumen Studio · Dhaka, BD
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - text: Senior · 4–6 yrs
+          - generic [ref=e32]:
+            - img [ref=e33]
+            - text: Dhaka, BD
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img [ref=e38]
+          - generic [ref=e41]: Full-time
+          - generic [ref=e42]: Type
+        - generic [ref=e43]:
+          - img [ref=e44]
+          - generic [ref=e49]: "2"
+          - generic [ref=e50]: Openings
+        - generic [ref=e51]:
+          - img [ref=e52]
+          - generic [ref=e54]: Jun 30
+          - generic [ref=e55]: Closes
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "About the role" [level=2] [ref=e58]
+          - paragraph [ref=e59]: Lumen Studio is a product design partner for fast-growing fintech and health startups across South Asia. We craft interfaces people genuinely love to use.
+        - generic [ref=e60]:
+          - heading "What you'll do" [level=2] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e67]: Own end-to-end design for flagship mobile products
+            - listitem [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e72]: Evolve and maintain our cross-platform design system
+            - listitem [ref=e73]:
+              - img [ref=e75]
+              - generic [ref=e77]: Partner with engineering to ship pixel-true interfaces
+            - listitem [ref=e78]:
+              - img [ref=e80]
+              - generic [ref=e82]: Mentor two mid-level designers
+        - generic [ref=e83]:
+          - heading "What we're looking for" [level=2] [ref=e84]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - img [ref=e88]
+              - generic [ref=e90]: 4+ years designing consumer mobile products
+            - listitem [ref=e91]:
+              - img [ref=e93]
+              - generic [ref=e95]: A portfolio that shows craft and systems thinking
+            - listitem [ref=e96]:
+              - img [ref=e98]
+              - generic [ref=e100]: Fluency in Figma, prototyping and motion
+            - listitem [ref=e101]:
+              - img [ref=e103]
+              - generic [ref=e105]: Strong written communication
+        - generic [ref=e106]:
+          - heading "Skills" [level=2] [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Figma
+            - generic [ref=e110]: Design Systems
+            - generic [ref=e111]: Mobile
+        - generic [ref=e112]:
+          - generic [ref=e113]: L
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Lumen Studio
+            - paragraph [ref=e116]: Posted 2d ago
+          - generic [ref=e117]: Follow
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - paragraph [ref=e120]: Salary
+        - paragraph [ref=e121]: ৳90k–130k
+      - link "Apply now" [ref=e122] [cursor=pointer]:
+        - /url: /apply/sr-product-designer
+  - button "Open Next.js Dev Tools" [ref=e128] [cursor=pointer]:
+    - img [ref=e129]

@@ -1,0 +1,129 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - generic [ref=e9]:
+        - heading "Companies" [level=1] [ref=e10]
+        - paragraph [ref=e11]: 6 employers hiring
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - textbox "Search companies" [ref=e17]
+      - generic [ref=e18]:
+        - link "L Lumen Studio Design & Product 4.8 Dhaka, BD 50–120 employees 1 open roles" [ref=e19] [cursor=pointer]:
+          - /url: /companies/lumen
+          - generic [ref=e20]:
+            - generic [ref=e21]: L
+            - generic [ref=e22]:
+              - heading "Lumen Studio" [level=3] [ref=e23]
+              - paragraph [ref=e24]: Design & Product
+              - generic [ref=e25]:
+                - generic [ref=e26]:
+                  - img [ref=e27]
+                  - text: "4.8"
+                - generic [ref=e29]:
+                  - img [ref=e30]
+                  - text: Dhaka, BD
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - img [ref=e35]
+              - text: 50–120 employees
+            - generic [ref=e40]: 1 open roles
+        - link "N Northwind Logistics SaaS 4.6 Remote 120–300 employees 1 open roles" [ref=e41] [cursor=pointer]:
+          - /url: /companies/northwind
+          - generic [ref=e42]:
+            - generic [ref=e43]: "N"
+            - generic [ref=e44]:
+              - heading "Northwind" [level=3] [ref=e45]
+              - paragraph [ref=e46]: Logistics SaaS
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - img [ref=e49]
+                  - text: "4.6"
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - text: Remote
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - text: 120–300 employees
+            - generic [ref=e62]: 1 open roles
+        - link "P Paperboat Media & Brand 4.4 Chattogram, BD 20–50 employees 1 open roles" [ref=e63] [cursor=pointer]:
+          - /url: /companies/paperboat
+          - generic [ref=e64]:
+            - generic [ref=e65]: P
+            - generic [ref=e66]:
+              - heading "Paperboat" [level=3] [ref=e67]
+              - paragraph [ref=e68]: Media & Brand
+              - generic [ref=e69]:
+                - generic [ref=e70]:
+                  - img [ref=e71]
+                  - text: "4.4"
+                - generic [ref=e73]:
+                  - img [ref=e74]
+                  - text: Chattogram, BD
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img [ref=e79]
+              - text: 20–50 employees
+            - generic [ref=e84]: 1 open roles
+        - link "C Corewave Cloud Infrastructure 4.5 Dhaka, BD 300–600 employees 1 open roles" [ref=e85] [cursor=pointer]:
+          - /url: /companies/corewave
+          - generic [ref=e86]:
+            - generic [ref=e87]: C
+            - generic [ref=e88]:
+              - heading "Corewave" [level=3] [ref=e89]
+              - paragraph [ref=e90]: Cloud Infrastructure
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - img [ref=e93]
+                  - text: "4.5"
+                - generic [ref=e95]:
+                  - img [ref=e96]
+                  - text: Dhaka, BD
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - img [ref=e101]
+              - text: 300–600 employees
+            - generic [ref=e106]: 1 open roles
+        - link "B Bloom D2C Wellness 4.3 Remote 50–120 employees 1 open roles" [ref=e107] [cursor=pointer]:
+          - /url: /companies/bloom
+          - generic [ref=e108]:
+            - generic [ref=e109]: B
+            - generic [ref=e110]:
+              - heading "Bloom" [level=3] [ref=e111]
+              - paragraph [ref=e112]: D2C Wellness
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - img [ref=e115]
+                  - text: "4.3"
+                - generic [ref=e117]:
+                  - img [ref=e118]
+                  - text: Remote
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - img [ref=e123]
+              - text: 50–120 employees
+            - generic [ref=e128]: 1 open roles
+        - link "H Helix Health AI 4.7 Dhaka, BD 50–120 employees 1 open roles" [ref=e129] [cursor=pointer]:
+          - /url: /companies/helix
+          - generic [ref=e130]:
+            - generic [ref=e131]: H
+            - generic [ref=e132]:
+              - heading "Helix" [level=3] [ref=e133]
+              - paragraph [ref=e134]: Health AI
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - img [ref=e137]
+                  - text: "4.7"
+                - generic [ref=e139]:
+                  - img [ref=e140]
+                  - text: Dhaka, BD
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - img [ref=e145]
+              - text: 50–120 employees
+            - generic [ref=e150]: 1 open roles
+  - button "Open Next.js Dev Tools" [ref=e156] [cursor=pointer]:
+    - img [ref=e157]

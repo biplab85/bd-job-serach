@@ -1,0 +1,114 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - main [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e9]:
+          - button "Toggle dark mode" [ref=e10]:
+            - img [ref=e11]
+          - link "Settings" [ref=e13] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e14]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: BP
+            - link "Edit" [ref=e20] [cursor=pointer]:
+              - /url: /profile/edit
+              - img [ref=e21]
+              - text: Edit
+          - heading "Biplab Paul" [level=1] [ref=e23]
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - img [ref=e26]
+              - text: Product Designer
+            - generic [ref=e29]:
+              - img [ref=e30]
+              - text: Dhaka, Bangladesh
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: "12"
+          - generic [ref=e36]: Applied
+        - generic [ref=e37]:
+          - generic [ref=e38]: "3"
+          - generic [ref=e39]: Interviews
+        - generic [ref=e40]:
+          - generic [ref=e41]: "8"
+          - generic [ref=e42]: Saved
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Profile strength
+          - generic [ref=e46]: 82%
+        - paragraph [ref=e49]: Add a portfolio link to reach 100% and rank higher.
+      - generic [ref=e50]:
+        - heading "About" [level=2] [ref=e51]
+        - paragraph [ref=e52]: Product designer with 5 years crafting calm, useful mobile products. I care about systems, motion and the small details that make software feel human.
+      - generic [ref=e53]:
+        - heading "Skills" [level=2] [ref=e54]
+        - generic [ref=e55]:
+          - generic [ref=e56]: Product Design
+          - generic [ref=e57]: Figma
+          - generic [ref=e58]: Design Systems
+          - generic [ref=e59]: Prototyping
+          - generic [ref=e60]: User Research
+          - generic [ref=e61]: Webflow
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - link "My CV / Resume" [ref=e64] [cursor=pointer]:
+            - /url: /cv
+            - img [ref=e66]
+            - generic [ref=e69]: My CV / Resume
+            - img [ref=e70]
+          - link "Saved jobs 8" [ref=e72] [cursor=pointer]:
+            - /url: /saved
+            - img [ref=e74]
+            - generic [ref=e76]: Saved jobs
+            - generic [ref=e77]: "8"
+            - img [ref=e78]
+          - link "Settings" [ref=e80] [cursor=pointer]:
+            - /url: /settings
+            - img [ref=e82]
+            - generic [ref=e85]: Settings
+            - img [ref=e86]
+          - link "Help & support" [ref=e88] [cursor=pointer]:
+            - /url: /help
+            - img [ref=e90]
+            - generic [ref=e93]: Help & support
+            - img [ref=e94]
+          - link "About HousingJob" [ref=e96] [cursor=pointer]:
+            - /url: /about
+            - img [ref=e98]
+            - generic [ref=e100]: About HousingJob
+            - img [ref=e101]
+        - link "Log out" [ref=e105] [cursor=pointer]:
+          - /url: /login
+          - img [ref=e107]
+          - generic [ref=e110]: Log out
+          - img [ref=e111]
+    - navigation [ref=e113]:
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - link "Home" [ref=e116] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e118]
+            - generic [ref=e121]: Home
+        - listitem [ref=e122]:
+          - link "Search" [ref=e123] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e125]
+            - generic [ref=e128]: Search
+        - listitem [ref=e129]:
+          - link "Applied" [ref=e130] [cursor=pointer]:
+            - /url: /applications
+            - img [ref=e132]
+            - generic [ref=e135]: Applied
+        - listitem [ref=e136]:
+          - link "Chat" [ref=e137] [cursor=pointer]:
+            - /url: /messages
+            - img [ref=e139]
+            - generic [ref=e141]: Chat
+        - listitem [ref=e142]:
+          - link "Profile" [ref=e143] [cursor=pointer]:
+            - /url: /profile
+            - img [ref=e145]
+            - generic [ref=e148]: Profile
+  - button "Open Next.js Dev Tools" [ref=e154] [cursor=pointer]:
+    - img [ref=e155]

@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Back" [ref=e6]:
+        - img [ref=e7]
+      - generic [ref=e10]: SA
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: Sara Ahmed
+        - paragraph [ref=e14]: Active now
+      - button [ref=e15]:
+        - img [ref=e16]
+      - button [ref=e18]:
+        - img [ref=e19]
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: Today
+      - generic [ref=e25]:
+        - text: Hi Biplab! Thanks for applying to the Frontend role.
+        - generic [ref=e26]: 09:02
+      - generic [ref=e28]:
+        - text: Your portfolio really stood out to the team.
+        - generic [ref=e29]: 09:02
+      - generic [ref=e31]:
+        - text: Thank you, Sara — that means a lot!
+        - generic [ref=e32]: 09:10
+      - generic [ref=e34]:
+        - text: Are you free for a 30-min call this week?
+        - generic [ref=e35]: 09:18
+      - generic [ref=e37]:
+        - text: Tuesday morning works well for me.
+        - generic [ref=e38]: 09:22
+      - generic [ref=e40]:
+        - text: Great! Let's lock in Tuesday at 11.
+        - generic [ref=e41]: 09:24
+    - generic [ref=e42]:
+      - button [ref=e43]:
+        - img [ref=e44]
+      - textbox "Message…" [ref=e45]
+      - button "Send" [ref=e46]:
+        - img [ref=e47]
+  - button "Open Next.js Dev Tools" [ref=e55] [cursor=pointer]:
+    - img [ref=e56]

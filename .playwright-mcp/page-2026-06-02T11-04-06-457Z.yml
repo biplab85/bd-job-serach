@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Help & support" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - img
+        - textbox "Search for help" [ref=e13]
+      - generic [ref=e14]:
+        - button "Live chat" [ref=e15]:
+          - img [ref=e17]
+          - generic [ref=e19]: Live chat
+        - button "Email us" [ref=e20]:
+          - img [ref=e22]
+          - generic [ref=e25]: Email us
+        - button "Call" [ref=e26]:
+          - img [ref=e28]
+          - generic [ref=e30]: Call
+      - generic [ref=e31]:
+        - heading "Frequently asked" [level=2] [ref=e32]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - button "How do I apply for a job?" [ref=e35]:
+              - generic [ref=e36]: How do I apply for a job?
+              - img [ref=e37]
+            - paragraph [ref=e41]: Open any job, tap “Apply now”, review your profile and CV, add a short cover letter, then submit. You can track it from the Applications tab.
+          - generic [ref=e42]:
+            - button "Can I edit my application after submitting?" [ref=e43]:
+              - generic [ref=e44]: Can I edit my application after submitting?
+              - img [ref=e45]
+            - paragraph [ref=e47]: You can update your CV and profile anytime. New applications will use the latest version, but already-submitted ones stay as sent.
+          - generic [ref=e48]:
+            - button "How does job matching work?" [ref=e49]:
+              - generic [ref=e50]: How does job matching work?
+              - img [ref=e51]
+            - paragraph [ref=e53]: We match roles to your skills, salary expectations and preferences, then rank them so the best fits appear first on your home feed.
+          - generic [ref=e54]:
+            - button "Is HousingJob free to use?" [ref=e55]:
+              - generic [ref=e56]: Is HousingJob free to use?
+              - img [ref=e57]
+            - paragraph [ref=e59]: Yes — searching, applying and tracking are completely free for job seekers.
+          - generic [ref=e60]:
+            - button "How do I delete my account?" [ref=e61]:
+              - generic [ref=e62]: How do I delete my account?
+              - img [ref=e63]
+            - paragraph [ref=e65]: Go to Settings → Account. Reach out to support and we'll remove your data within 30 days.
+  - button "Open Next.js Dev Tools" [ref=e71] [cursor=pointer]:
+    - img [ref=e72]

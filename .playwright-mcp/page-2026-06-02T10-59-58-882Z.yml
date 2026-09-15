@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - heading "Application sent!" [level=1] [ref=e10]
+      - paragraph [ref=e11]: You've applied for Frontend Engineer (React) at Northwind.
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "1"
+          - generic [ref=e15]: Your application is on its way to the hiring team
+        - generic [ref=e16]:
+          - generic [ref=e17]: "2"
+          - generic [ref=e18]: We'll notify you the moment they respond
+        - generic [ref=e19]:
+          - generic [ref=e20]: "3"
+          - generic [ref=e21]: Track everything from your Applications tab
+    - generic [ref=e22]:
+      - link "Track application" [ref=e23] [cursor=pointer]:
+        - /url: /applications
+        - text: Track application
+        - img [ref=e24]
+      - link "Back to home" [ref=e26] [cursor=pointer]:
+        - /url: /home
+        - img [ref=e27]
+        - text: Back to home
+  - button "Open Next.js Dev Tools" [ref=e35] [cursor=pointer]:
+    - img [ref=e36]

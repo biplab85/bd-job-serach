@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Post a job" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: Job title
+        - generic [ref=e14]:
+          - img
+          - textbox "Job title" [ref=e15]:
+            - /placeholder: e.g. Senior Product Designer
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Category
+        - generic [ref=e18]:
+          - button "Programmer" [ref=e19]
+          - button "Content Writer" [ref=e20]
+          - button "Designer" [ref=e21]
+          - button "Marketing" [ref=e22]
+          - button "Security" [ref=e23]
+          - button "DevOps" [ref=e24]
+          - button "Support" [ref=e25]
+          - button "Data & AI" [ref=e26]
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: Employment type
+        - generic [ref=e29]:
+          - button "Full-time" [ref=e30]
+          - button "Part-time" [ref=e31]
+          - button "Contract" [ref=e32]
+          - button "Remote" [ref=e33]
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Experience level
+        - generic [ref=e36]:
+          - button "Junior" [ref=e37]
+          - button "Mid" [ref=e38]
+          - button "Senior" [ref=e39]
+          - button "Lead" [ref=e40]
+      - generic [ref=e41]:
+        - generic [ref=e42]: Location
+        - generic [ref=e43]:
+          - img
+          - textbox "Location" [ref=e44]:
+            - /placeholder: Dhaka, BD or Remote
+      - generic [ref=e45]:
+        - paragraph [ref=e46]: Monthly salary (৳)
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img
+            - spinbutton [ref=e49]
+          - generic [ref=e50]: –
+          - generic [ref=e51]:
+            - img
+            - spinbutton [ref=e52]
+      - generic [ref=e53]:
+        - generic [ref=e54]: Job description
+        - textbox "Job description" [ref=e55]:
+          - /placeholder: Describe the role, team and what success looks like…
+      - generic [ref=e56]:
+        - generic [ref=e57]: Requirements
+        - textbox "Requirements One per line." [ref=e58]:
+          - /placeholder: "3+ years experience\nStrong portfolio\nGreat communication"
+        - generic [ref=e59]: One per line.
+    - button "Publish job" [ref=e61]
+  - button "Open Next.js Dev Tools" [ref=e67] [cursor=pointer]:
+    - img [ref=e68]

@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "HousingJob Pro" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - img [ref=e14]
+        - heading "Get hired faster" [level=1] [ref=e17]
+        - paragraph [ref=e18]: Stand out to recruiters, unlock salary insights and let AI sharpen every application.
+      - generic [ref=e20]:
+        - button "Monthly" [ref=e21]
+        - button "Yearly" [ref=e22]
+      - generic [ref=e23]:
+        - button "Free Everything to start your search Free Unlimited job search Apply to any role Track applications Basic profile" [ref=e24]:
+          - heading "Free" [level=2] [ref=e27]
+          - paragraph [ref=e29]: Everything to start your search
+          - paragraph [ref=e30]: Free
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - img [ref=e34]
+              - generic [ref=e36]: Unlimited job search
+            - listitem [ref=e37]:
+              - img [ref=e39]
+              - generic [ref=e41]: Apply to any role
+            - listitem [ref=e42]:
+              - img [ref=e44]
+              - generic [ref=e46]: Track applications
+            - listitem [ref=e47]:
+              - img [ref=e49]
+              - generic [ref=e51]: Basic profile
+        - button "Pro Popular Stand out and get noticed faster ৳499 /mo Everything in Free Featured applicant badge See who viewed your profile Salary insights unlocked Priority support AI cover-letter assistant" [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - heading "Pro" [level=2] [ref=e55]
+              - generic [ref=e56]: Popular
+            - img [ref=e58]
+          - paragraph [ref=e60]: Stand out and get noticed faster
+          - paragraph [ref=e61]:
+            - text: ৳499
+            - generic [ref=e62]: /mo
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - img [ref=e66]
+              - generic [ref=e68]: Everything in Free
+            - listitem [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e73]: Featured applicant badge
+            - listitem [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e78]: See who viewed your profile
+            - listitem [ref=e79]:
+              - img [ref=e81]
+              - generic [ref=e83]: Salary insights unlocked
+            - listitem [ref=e84]:
+              - img [ref=e86]
+              - generic [ref=e88]: Priority support
+            - listitem [ref=e89]:
+              - img [ref=e91]
+              - generic [ref=e93]: AI cover-letter assistant
+        - button "Business For recruiters & teams hiring at scale ৳1499 /mo Everything in Pro Post unlimited jobs Applicant tracking pipeline Team seats (5) Branded company page Advanced analytics" [ref=e94]:
+          - heading "Business" [level=2] [ref=e97]
+          - paragraph [ref=e99]: For recruiters & teams hiring at scale
+          - paragraph [ref=e100]:
+            - text: ৳1499
+            - generic [ref=e101]: /mo
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - img [ref=e105]
+              - generic [ref=e107]: Everything in Pro
+            - listitem [ref=e108]:
+              - img [ref=e110]
+              - generic [ref=e112]: Post unlimited jobs
+            - listitem [ref=e113]:
+              - img [ref=e115]
+              - generic [ref=e117]: Applicant tracking pipeline
+            - listitem [ref=e118]:
+              - img [ref=e120]
+              - generic [ref=e122]: Team seats (5)
+            - listitem [ref=e123]:
+              - img [ref=e125]
+              - generic [ref=e127]: Branded company page
+            - listitem [ref=e128]:
+              - img [ref=e130]
+              - generic [ref=e132]: Advanced analytics
+      - paragraph [ref=e133]: Cancel anytime. Prices in BDT and include all taxes.
+    - link "Continue with Pro" [ref=e135] [cursor=pointer]:
+      - /url: /wallet
+      - img [ref=e136]
+      - text: Continue with Pro
+  - button "Open Next.js Dev Tools" [ref=e143] [cursor=pointer]:
+    - img [ref=e144]

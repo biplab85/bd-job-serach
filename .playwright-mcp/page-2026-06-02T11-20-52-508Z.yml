@@ -1,0 +1,114 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Company" [level=1] [ref=e10]
+      - button "Share" [ref=e12]:
+        - img [ref=e13]
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: L
+        - heading "Lumen Studio" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Design & Product
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - text: 4.8 · 142
+          - generic [ref=e28]: Follow
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - img [ref=e31]
+          - generic [ref=e34]: Dhaka
+          - generic [ref=e35]: HQ
+        - generic [ref=e36]:
+          - img [ref=e37]
+          - generic [ref=e42]: 50–120
+          - generic [ref=e43]: Size
+        - generic [ref=e44]:
+          - img [ref=e45]
+          - generic [ref=e47]: "2017"
+          - generic [ref=e48]: Founded
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - heading "About" [level=2] [ref=e51]
+          - paragraph [ref=e52]: Lumen Studio is a product design partner for fast-growing fintech and health startups across South Asia. We craft interfaces people genuinely love to use.
+        - generic [ref=e53]:
+          - heading "Culture" [level=2] [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]: Craft-obsessed
+            - generic [ref=e57]: Calm
+            - generic [ref=e58]: Mentorship
+            - generic [ref=e59]: High trust
+        - generic [ref=e60]:
+          - heading "Benefits" [level=2] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e67]: Remote-friendly
+            - listitem [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e72]: Health insurance
+            - listitem [ref=e73]:
+              - img [ref=e75]
+              - generic [ref=e77]: Learning budget
+            - listitem [ref=e78]:
+              - img [ref=e80]
+              - generic [ref=e82]: Flexible hours
+            - listitem [ref=e83]:
+              - img [ref=e85]
+              - generic [ref=e87]: 4-day sprints
+        - generic [ref=e88]:
+          - heading "Employee reviews" [level=2] [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - paragraph [ref=e94]: Tania R.
+                  - paragraph [ref=e95]: Designer
+                - generic [ref=e96]:
+                  - img [ref=e97]
+                  - text: "5"
+              - paragraph [ref=e99]: “Best design culture I've worked in. Real mentorship and zero ego.”
+              - paragraph [ref=e100]: 2 weeks ago
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - paragraph [ref=e104]: Imran H.
+                  - paragraph [ref=e105]: Engineer
+                - generic [ref=e106]:
+                  - img [ref=e107]
+                  - text: "4"
+              - paragraph [ref=e109]: “Thoughtful team, calm pace, ships great work.”
+              - paragraph [ref=e110]: 1 month ago
+        - generic [ref=e111]:
+          - heading "Open roles (1)" [level=2] [ref=e112]
+          - link "L Senior Product Designer Lumen Studio Save job Dhaka, BD Full-time ৳90k–130k /mo Details" [ref=e114] [cursor=pointer]:
+            - /url: /jobs/sr-product-designer
+            - generic [ref=e115]:
+              - generic [ref=e116]: L
+              - generic [ref=e117]:
+                - heading "Senior Product Designer" [level=3] [ref=e118]
+                - paragraph [ref=e119]: Lumen Studio
+              - button "Save job" [ref=e120]:
+                - img [ref=e121]
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - img [ref=e125]
+                - text: Dhaka, BD
+              - generic [ref=e128]:
+                - img [ref=e129]
+                - text: Full-time
+            - generic [ref=e132]:
+              - generic [ref=e133]: ৳90k–130k /mo
+              - generic [ref=e134]:
+                - text: Details
+                - img [ref=e135]
+    - generic [ref=e138]:
+      - button "Website" [ref=e139]:
+        - img [ref=e140]
+        - text: Website
+      - link "View 1 jobs" [ref=e143] [cursor=pointer]:
+        - /url: "#openings"
+  - button "Open Next.js Dev Tools" [ref=e149] [cursor=pointer]:
+    - img [ref=e150]

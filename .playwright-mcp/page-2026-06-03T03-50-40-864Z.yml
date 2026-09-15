@@ -1,0 +1,64 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Settings" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: Account
+        - generic [ref=e14]:
+          - link "Edit profile" [ref=e15] [cursor=pointer]:
+            - /url: /profile/edit
+            - img [ref=e17]
+            - generic [ref=e20]: Edit profile
+            - img [ref=e21]
+          - link "Change password" [ref=e23] [cursor=pointer]:
+            - /url: /settings/password
+            - img [ref=e25]
+            - generic [ref=e28]: Change password
+            - img [ref=e29]
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: Preferences
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - img [ref=e36]
+            - generic [ref=e39]: Push notifications
+            - switch [checked] [ref=e40]
+          - generic [ref=e42]:
+            - img [ref=e44]
+            - generic [ref=e47]: Email alerts
+            - switch [checked] [ref=e48]
+          - generic [ref=e50]:
+            - img [ref=e52]
+            - generic [ref=e54]: Dark mode
+            - switch "Toggle dark mode" [checked] [active] [ref=e55]:
+              - img [ref=e109]
+          - link "Language English" [ref=e57] [cursor=pointer]:
+            - /url: /settings/language
+            - img [ref=e59]
+            - generic [ref=e62]: Language
+            - generic [ref=e63]: English
+            - img [ref=e64]
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: Support
+        - generic [ref=e68]:
+          - link "Privacy policy" [ref=e69] [cursor=pointer]:
+            - /url: /privacy
+            - img [ref=e71]
+            - generic [ref=e73]: Privacy policy
+            - img [ref=e74]
+          - link "About HousingJob" [ref=e76] [cursor=pointer]:
+            - /url: /about
+            - img [ref=e78]
+            - generic [ref=e80]: About HousingJob
+            - img [ref=e81]
+      - link "Log out" [ref=e84] [cursor=pointer]:
+        - /url: /login
+        - img [ref=e86]
+        - generic [ref=e89]: Log out
+        - img [ref=e90]
+      - paragraph [ref=e92]: HousingJob · v1.0.0
+  - button "Open Next.js Dev Tools" [ref=e98] [cursor=pointer]:
+    - img [ref=e99]
+  - alert [ref=e108]

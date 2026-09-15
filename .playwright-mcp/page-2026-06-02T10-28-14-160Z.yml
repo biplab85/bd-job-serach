@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Schedule interview" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - heading "Interview type" [level=2] [ref=e13]
+        - generic [ref=e14]:
+          - button "Video call" [ref=e15]:
+            - img [ref=e16]
+            - generic [ref=e19]: Video call
+          - button "On-site" [ref=e20]:
+            - img [ref=e21]
+            - generic [ref=e24]: On-site
+      - generic [ref=e25]:
+        - heading "Pick a day · June" [level=2] [ref=e26]:
+          - img [ref=e27]
+          - text: Pick a day · June
+        - generic [ref=e29]:
+          - button "Mon 23" [ref=e30]:
+            - generic [ref=e31]: Mon
+            - generic [ref=e32]: "23"
+          - button "Tue 24" [ref=e33]:
+            - generic [ref=e34]: Tue
+            - generic [ref=e35]: "24"
+          - button "Wed 25" [ref=e36]:
+            - generic [ref=e37]: Wed
+            - generic [ref=e38]: "25"
+          - button "Thu 26" [ref=e39]:
+            - generic [ref=e40]: Thu
+            - generic [ref=e41]: "26"
+          - button "Fri 27" [ref=e42]:
+            - generic [ref=e43]: Fri
+            - generic [ref=e44]: "27"
+      - generic [ref=e45]:
+        - heading "Available times" [level=2] [ref=e46]
+        - generic [ref=e47]:
+          - button "09:00" [ref=e48]
+          - button "10:30" [ref=e49]
+          - button "11:00" [ref=e50]
+          - button "13:00" [ref=e51]
+          - button "14:30" [ref=e52]
+          - button "16:00" [ref=e53]
+      - generic [ref=e54]:
+        - heading "Duration" [level=2] [ref=e55]
+        - generic [ref=e56]:
+          - button "15 min" [ref=e57]
+          - button "30 min" [ref=e58]
+          - button "45 min" [ref=e59]
+          - button "60 min" [ref=e60]
+      - generic [ref=e61]:
+        - generic [ref=e62]: Notes for the interviewer (optional)
+        - textbox "Notes for the interviewer (optional)" [ref=e63]:
+          - /placeholder: Anything you'd like them to know…
+    - button "Confirm interview" [ref=e65]
+  - button "Open Next.js Dev Tools" [ref=e71] [cursor=pointer]:
+    - img [ref=e72]

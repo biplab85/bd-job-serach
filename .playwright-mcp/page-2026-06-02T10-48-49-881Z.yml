@@ -1,0 +1,218 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - link "BP Good morning 👋 Biplab Paul" [ref=e6] [cursor=pointer]:
+        - /url: /profile
+        - generic [ref=e7]: BP
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Good morning 👋
+          - paragraph [ref=e10]: Biplab Paul
+      - link "Notifications" [ref=e11] [cursor=pointer]:
+        - /url: /notifications
+        - img [ref=e12]
+        - generic [ref=e15]: "3"
+    - main [ref=e16]:
+      - link "Search jobs, companies…" [ref=e18] [cursor=pointer]:
+        - /url: /search
+        - img [ref=e19]
+        - generic [ref=e22]: Search jobs, companies…
+        - img [ref=e24]
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: Your job search
+          - paragraph [ref=e30]: 12 applications
+          - generic [ref=e31]:
+            - generic [ref=e32]: 3 interviews
+            - generic [ref=e33]: 8 saved
+        - link [ref=e34] [cursor=pointer]:
+          - /url: /applications
+          - img [ref=e35]
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - heading "Browse by category" [level=2] [ref=e41]
+          - link "See all" [ref=e42] [cursor=pointer]:
+            - /url: /categories
+        - generic [ref=e43]:
+          - link "Programmer" [ref=e44] [cursor=pointer]:
+            - /url: /jobs?category=programmer
+            - img [ref=e46]
+            - generic [ref=e49]: Programmer
+          - link "Content Writer" [ref=e50] [cursor=pointer]:
+            - /url: /jobs?category=content-writer
+            - img [ref=e52]
+            - generic [ref=e54]: Content Writer
+          - link "Designer" [ref=e55] [cursor=pointer]:
+            - /url: /jobs?category=designer
+            - img [ref=e57]
+            - generic [ref=e62]: Designer
+          - link "Marketing" [ref=e63] [cursor=pointer]:
+            - /url: /jobs?category=marketing
+            - img [ref=e65]
+            - generic [ref=e68]: Marketing
+          - link "Security" [ref=e69] [cursor=pointer]:
+            - /url: /jobs?category=security
+            - img [ref=e71]
+            - generic [ref=e73]: Security
+          - link "DevOps" [ref=e74] [cursor=pointer]:
+            - /url: /jobs?category=devops
+            - img [ref=e76]
+            - generic [ref=e79]: DevOps
+          - link "Support" [ref=e80] [cursor=pointer]:
+            - /url: /jobs?category=support
+            - img [ref=e82]
+            - generic [ref=e85]: Support
+          - link "Data & AI" [ref=e86] [cursor=pointer]:
+            - /url: /jobs?category=data
+            - img [ref=e88]
+            - generic [ref=e92]: Data & AI
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - heading "Featured for you" [level=2] [ref=e96]
+          - link "View all" [ref=e97] [cursor=pointer]:
+            - /url: /jobs
+        - generic [ref=e98]:
+          - link "L Featured Senior Product Designer Lumen Studio · Dhaka, BD Figma Design Systems ৳90k–130k 2d ago" [ref=e99] [cursor=pointer]:
+            - /url: /jobs/sr-product-designer
+            - generic [ref=e100]:
+              - generic [ref=e101]: L
+              - generic [ref=e102]: Featured
+            - heading "Senior Product Designer" [level=3] [ref=e103]
+            - paragraph [ref=e104]: Lumen Studio · Dhaka, BD
+            - generic [ref=e105]:
+              - generic [ref=e106]: Figma
+              - generic [ref=e107]: Design Systems
+            - generic [ref=e108]:
+              - generic [ref=e109]: ৳90k–130k
+              - generic [ref=e110]: 2d ago
+          - link "N Featured Frontend Engineer (React) Northwind · Remote React TypeScript ৳70k–110k 5h ago" [ref=e111] [cursor=pointer]:
+            - /url: /jobs/frontend-engineer
+            - generic [ref=e112]:
+              - generic [ref=e113]: "N"
+              - generic [ref=e114]: Featured
+            - heading "Frontend Engineer (React)" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Northwind · Remote
+            - generic [ref=e117]:
+              - generic [ref=e118]: React
+              - generic [ref=e119]: TypeScript
+            - generic [ref=e120]:
+              - generic [ref=e121]: ৳70k–110k
+              - generic [ref=e122]: 5h ago
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - heading "Recent jobs" [level=2] [ref=e125]
+          - link "See all" [ref=e126] [cursor=pointer]:
+            - /url: /jobs
+        - generic [ref=e127]:
+          - link "L Senior Product Designer Lumen Studio Save job Dhaka, BD Full-time ৳90k–130k /mo Details" [ref=e129] [cursor=pointer]:
+            - /url: /jobs/sr-product-designer
+            - generic [ref=e130]:
+              - generic [ref=e131]: L
+              - generic [ref=e132]:
+                - heading "Senior Product Designer" [level=3] [ref=e133]
+                - paragraph [ref=e134]: Lumen Studio
+              - button "Save job" [ref=e135]:
+                - img [ref=e136]
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - img [ref=e140]
+                - text: Dhaka, BD
+              - generic [ref=e143]:
+                - img [ref=e144]
+                - text: Full-time
+            - generic [ref=e147]:
+              - generic [ref=e148]: ৳90k–130k /mo
+              - generic [ref=e149]:
+                - text: Details
+                - img [ref=e150]
+          - link "N Frontend Engineer (React) Northwind Save job Remote Remote ৳70k–110k /mo Details" [ref=e154] [cursor=pointer]:
+            - /url: /jobs/frontend-engineer
+            - generic [ref=e155]:
+              - generic [ref=e156]: "N"
+              - generic [ref=e157]:
+                - heading "Frontend Engineer (React)" [level=3] [ref=e158]
+                - paragraph [ref=e159]: Northwind
+              - button "Save job" [ref=e160]:
+                - img [ref=e161]
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - img [ref=e165]
+                - text: Remote
+              - generic [ref=e168]:
+                - img [ref=e169]
+                - text: Remote
+            - generic [ref=e172]:
+              - generic [ref=e173]: ৳70k–110k /mo
+              - generic [ref=e174]:
+                - text: Details
+                - img [ref=e175]
+          - link "P Content Strategist Paperboat Save job Chattogram, BD Full-time ৳55k–80k /mo Details" [ref=e179] [cursor=pointer]:
+            - /url: /jobs/content-strategist
+            - generic [ref=e180]:
+              - generic [ref=e181]: P
+              - generic [ref=e182]:
+                - heading "Content Strategist" [level=3] [ref=e183]
+                - paragraph [ref=e184]: Paperboat
+              - button "Save job" [ref=e185]:
+                - img [ref=e186]
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - img [ref=e190]
+                - text: Chattogram, BD
+              - generic [ref=e193]:
+                - img [ref=e194]
+                - text: Full-time
+            - generic [ref=e197]:
+              - generic [ref=e198]: ৳55k–80k /mo
+              - generic [ref=e199]:
+                - text: Details
+                - img [ref=e200]
+          - link "C DevOps Engineer Corewave Save job Dhaka, BD Full-time ৳110k–150k /mo Details" [ref=e204] [cursor=pointer]:
+            - /url: /jobs/devops-engineer
+            - generic [ref=e205]:
+              - generic [ref=e206]: C
+              - generic [ref=e207]:
+                - heading "DevOps Engineer" [level=3] [ref=e208]
+                - paragraph [ref=e209]: Corewave
+              - button "Save job" [ref=e210]:
+                - img [ref=e211]
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - img [ref=e215]
+                - text: Dhaka, BD
+              - generic [ref=e218]:
+                - img [ref=e219]
+                - text: Full-time
+            - generic [ref=e222]:
+              - generic [ref=e223]: ৳110k–150k /mo
+              - generic [ref=e224]:
+                - text: Details
+                - img [ref=e225]
+    - navigation [ref=e228]:
+      - list [ref=e229]:
+        - listitem [ref=e230]:
+          - link "Home" [ref=e231] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e233]
+            - generic [ref=e236]: Home
+        - listitem [ref=e237]:
+          - link "Search" [ref=e238] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e240]
+            - generic [ref=e243]: Search
+        - listitem [ref=e244]:
+          - link "Applied" [ref=e245] [cursor=pointer]:
+            - /url: /applications
+            - img [ref=e247]
+            - generic [ref=e250]: Applied
+        - listitem [ref=e251]:
+          - link "Chat" [ref=e252] [cursor=pointer]:
+            - /url: /messages
+            - img [ref=e254]
+            - generic [ref=e256]: Chat
+        - listitem [ref=e257]:
+          - link "Profile" [ref=e258] [cursor=pointer]:
+            - /url: /profile
+            - img [ref=e260]
+            - generic [ref=e263]: Profile
+  - button "Open Next.js Dev Tools" [ref=e269] [cursor=pointer]:
+    - img [ref=e270]

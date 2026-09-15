@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Edit CV" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - heading "Personal details" [level=2] [ref=e13]:
+          - img [ref=e14]
+          - text: Personal details
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Full name
+            - textbox "Full name" [ref=e20]: Biplab Paul
+          - generic [ref=e21]:
+            - generic [ref=e22]: Professional title
+            - textbox "Professional title" [ref=e23]: Product Designer
+      - generic [ref=e24]:
+        - heading "Professional summary" [level=2] [ref=e25]:
+          - img [ref=e26]
+          - text: Professional summary
+        - textbox [ref=e30]: Product designer with 5 years crafting calm, useful mobile products. I care about systems, motion and the small details that make software feel human.
+      - generic [ref=e31]:
+        - heading "Experience" [level=2] [ref=e32]:
+          - img [ref=e33]
+          - text: Experience
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - paragraph [ref=e39]: Product Designer
+              - paragraph [ref=e40]: Finlytics · 2022 — Present
+            - button "Remove Product Designer" [ref=e41]:
+              - img [ref=e42]
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: UI Designer
+              - paragraph [ref=e48]: Brightlabs · 2020 — 2022
+            - button "Remove UI Designer" [ref=e49]:
+              - img [ref=e50]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - paragraph [ref=e55]: Design Intern
+              - paragraph [ref=e56]: Studio Kaaj · 2019 — 2020
+            - button "Remove Design Intern" [ref=e57]:
+              - img [ref=e58]
+          - button "Add experience" [ref=e61]:
+            - img [ref=e62]
+            - text: Add experience
+      - generic [ref=e63]:
+        - heading "Skills" [level=2] [ref=e64]:
+          - img [ref=e65]
+          - text: Skills
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - text: Product Design
+              - button "Remove Product Design" [ref=e69]:
+                - img [ref=e70]
+            - generic [ref=e73]:
+              - text: Figma
+              - button "Remove Figma" [ref=e74]:
+                - img [ref=e75]
+            - generic [ref=e78]:
+              - text: Design Systems
+              - button "Remove Design Systems" [ref=e79]:
+                - img [ref=e80]
+            - generic [ref=e83]:
+              - text: Prototyping
+              - button "Remove Prototyping" [ref=e84]:
+                - img [ref=e85]
+            - generic [ref=e88]:
+              - text: User Research
+              - button "Remove User Research" [ref=e89]:
+                - img [ref=e90]
+            - generic [ref=e93]:
+              - text: Webflow
+              - button "Remove Webflow" [ref=e94]:
+                - img [ref=e95]
+          - generic [ref=e98]:
+            - textbox "Add a skill" [ref=e99]
+            - button "Add" [ref=e100]:
+              - img [ref=e101]
+              - text: Add
+    - link "Save CV" [ref=e103] [cursor=pointer]:
+      - /url: /cv
+  - button "Open Next.js Dev Tools" [ref=e109] [cursor=pointer]:
+    - img [ref=e110]

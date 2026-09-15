@@ -1,0 +1,60 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - button "Go back" [ref=e6]:
+          - img [ref=e7]
+        - heading "Billing" [level=1] [ref=e10]
+      - main [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - img [ref=e15]
+              - generic [ref=e17]: Current plan
+            - generic [ref=e18]: ACTIVE
+          - paragraph [ref=e19]: Pro
+          - paragraph [ref=e20]: Renews Jul 1, 2026 · ৳499/mo
+          - generic [ref=e21]:
+            - link "Change plan" [ref=e22] [cursor=pointer]:
+              - /url: /premium
+            - button "Cancel" [active] [ref=e23]
+        - generic [ref=e24]:
+          - heading "Payment method" [level=2] [ref=e25]
+          - generic [ref=e26]:
+            - img [ref=e28]
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: •••• •••• •••• 4242
+              - paragraph [ref=e32]: Expires 09/27
+            - button "Edit" [ref=e33]
+        - generic [ref=e34]:
+          - heading "Billing history" [level=2] [ref=e35]
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - img [ref=e39]
+              - generic [ref=e42]:
+                - paragraph [ref=e43]: Pro — Monthly
+                - paragraph [ref=e44]: Jun 1, 2026
+              - generic [ref=e45]: ৳499
+              - button "Download invoice for Pro — Monthly, Jun 1, 2026" [ref=e46]:
+                - img [ref=e47]
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - generic [ref=e55]:
+                - paragraph [ref=e56]: Pro — Monthly
+                - paragraph [ref=e57]: May 1, 2026
+              - generic [ref=e58]: ৳499
+              - button "Download invoice for Pro — Monthly, May 1, 2026" [ref=e59]:
+                - img [ref=e60]
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e68]:
+                - paragraph [ref=e69]: Pro — Monthly
+                - paragraph [ref=e70]: Apr 1, 2026
+              - generic [ref=e71]: ৳499
+              - button "Download invoice for Pro — Monthly, Apr 1, 2026" [ref=e72]:
+                - img [ref=e73]
+    - generic:
+      - status: Your Pro plan stays active until Jul 1, 2026.
+  - button "Open Next.js Dev Tools" [ref=e81] [cursor=pointer]:
+    - img [ref=e82]
+  - alert [ref=e85]

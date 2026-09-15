@@ -1,0 +1,91 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Applications" [level=1] [ref=e6]
+      - paragraph [ref=e7]: 12 total · 3 interviews
+      - generic [ref=e8]:
+        - generic [ref=e9]: All
+        - generic [ref=e10]: Active
+        - generic [ref=e11]: Interviews
+        - generic [ref=e12]: Closed
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - 'link "N Frontend Engineer (React) Northwind · Applied Jun 18 Interview Stage: Interview" [ref=e15] [cursor=pointer]':
+          - /url: /applications/a1
+          - generic [ref=e16]:
+            - generic [ref=e17]: "N"
+            - generic [ref=e18]:
+              - paragraph [ref=e19]: Frontend Engineer (React)
+              - paragraph [ref=e20]: Northwind · Applied Jun 18
+            - generic [ref=e21]: Interview
+          - generic [ref=e27]:
+            - generic [ref=e28]: "Stage: Interview"
+            - img [ref=e29]
+        - 'link "L Senior Product Designer Lumen Studio · Applied Jun 16 Shortlisted Stage: Shortlisted" [ref=e31] [cursor=pointer]':
+          - /url: /applications/a2
+          - generic [ref=e32]:
+            - generic [ref=e33]: L
+            - generic [ref=e34]:
+              - paragraph [ref=e35]: Senior Product Designer
+              - paragraph [ref=e36]: Lumen Studio · Applied Jun 16
+            - generic [ref=e37]: Shortlisted
+          - generic [ref=e43]:
+            - generic [ref=e44]: "Stage: Shortlisted"
+            - img [ref=e45]
+        - 'link "P Content Strategist Paperboat · Applied Jun 14 Reviewed Stage: Reviewed" [ref=e47] [cursor=pointer]':
+          - /url: /applications/a3
+          - generic [ref=e48]:
+            - generic [ref=e49]: P
+            - generic [ref=e50]:
+              - paragraph [ref=e51]: Content Strategist
+              - paragraph [ref=e52]: Paperboat · Applied Jun 14
+            - generic [ref=e53]: Reviewed
+          - generic [ref=e59]:
+            - generic [ref=e60]: "Stage: Reviewed"
+            - img [ref=e61]
+        - 'link "B Growth Marketing Lead Bloom · Applied Jun 12 Applied Stage: Applied" [ref=e63] [cursor=pointer]':
+          - /url: /applications/a4
+          - generic [ref=e64]:
+            - generic [ref=e65]: B
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Growth Marketing Lead
+              - paragraph [ref=e68]: Bloom · Applied Jun 12
+            - generic [ref=e69]: Applied
+          - generic [ref=e75]:
+            - generic [ref=e76]: "Stage: Applied"
+            - img [ref=e77]
+        - link "C DevOps Engineer Corewave · Applied Jun 2 Rejected Not selected" [ref=e79] [cursor=pointer]:
+          - /url: /applications/a5
+          - generic [ref=e80]:
+            - generic [ref=e81]: C
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: DevOps Engineer
+              - paragraph [ref=e84]: Corewave · Applied Jun 2
+            - generic [ref=e85]: Rejected
+          - generic [ref=e91]:
+            - generic [ref=e92]: Not selected
+            - img [ref=e93]
+    - navigation [ref=e95]:
+      - generic [ref=e96]:
+        - link "Home" [ref=e97] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e98]
+          - generic: Home
+        - link "Search" [ref=e101] [cursor=pointer]:
+          - /url: /search
+          - img [ref=e102]
+          - generic: Search
+        - link "Applied" [ref=e105] [cursor=pointer]:
+          - /url: /applications
+          - img [ref=e106]
+          - generic [ref=e109]: Applied
+        - link "Chat" [ref=e110] [cursor=pointer]:
+          - /url: /messages
+          - img [ref=e111]
+          - generic: Chat
+        - link "Profile" [ref=e113] [cursor=pointer]:
+          - /url: /profile
+          - img [ref=e114]
+          - generic: Profile
+  - button "Open Next.js Dev Tools" [ref=e122] [cursor=pointer]:
+    - img [ref=e123]

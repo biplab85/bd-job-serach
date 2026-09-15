@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Skip" [ref=e10] [cursor=pointer]:
+      - /url: /login
+    - generic [ref=e11]:
+      - img [ref=e14]
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Smart matching
+        - heading "Roles made for you" [level=1] [ref=e21]
+        - paragraph [ref=e22]: We surface jobs that fit your skills, salary expectations and the life you actually want to live.
+    - button "Continue" [ref=e23]
+  - button "Open Next.js Dev Tools" [ref=e29] [cursor=pointer]:
+    - img [ref=e30]

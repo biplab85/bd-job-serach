@@ -1,0 +1,65 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Salary insights" [level=1] [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - button "Product Designer" [ref=e13]
+        - button "Frontend Engineer" [ref=e14]
+        - button "Data Scientist" [ref=e15]
+        - button "DevOps Engineer" [ref=e16]
+        - button "Content Strategist" [ref=e17]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Product Designer · monthly
+          - generic [ref=e21]:
+            - img [ref=e22]
+            - text: +8%
+        - paragraph [ref=e25]: ৳35k–220k
+        - generic [ref=e26]:
+          - generic [ref=e27]: High demand
+          - generic [ref=e28]: across 3 regions
+      - generic [ref=e29]:
+        - heading "By experience level" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Junior
+            - generic [ref=e35]: ৳35k–55k
+          - generic [ref=e39]:
+            - generic [ref=e40]: Mid
+            - generic [ref=e41]: ৳60k–95k
+          - generic [ref=e45]:
+            - generic [ref=e46]: Senior
+            - generic [ref=e47]: ৳100k–150k
+          - generic [ref=e51]:
+            - generic [ref=e52]: Lead
+            - generic [ref=e53]: ৳150k–220k
+      - generic [ref=e56]:
+        - heading "Top paying locations" [level=2] [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - img [ref=e62]
+              - text: Dhaka
+            - generic [ref=e65]: ৳98k
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - img [ref=e71]
+              - text: Chattogram
+            - generic [ref=e74]: ৳82k
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - img [ref=e80]
+              - text: Remote
+            - generic [ref=e83]: ৳110k
+      - link "See Product Designer jobs Find roles that match this pay band" [ref=e87] [cursor=pointer]:
+        - /url: /jobs?category=designer
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: See Product Designer jobs
+          - paragraph [ref=e90]: Find roles that match this pay band
+        - img [ref=e92]
+      - paragraph [ref=e94]: Estimates based on aggregated, anonymised listings. Updated monthly.
+  - button "Open Next.js Dev Tools" [ref=e100] [cursor=pointer]:
+    - img [ref=e101]

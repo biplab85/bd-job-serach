@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - heading "Job details" [level=1] [ref=e10]
+      - generic [ref=e11]:
+        - button "Share" [ref=e12]:
+          - img [ref=e13]
+        - button "Save job" [ref=e19]:
+          - img [ref=e20]
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: "N"
+        - heading "Frontend Engineer (React)" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Northwind · Remote
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - text: Mid · 2–4 yrs
+          - generic [ref=e32]:
+            - img [ref=e33]
+            - text: Remote
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img [ref=e38]
+          - generic [ref=e41]: Remote
+          - generic [ref=e42]: Type
+        - generic [ref=e43]:
+          - img [ref=e44]
+          - generic [ref=e49]: "3"
+          - generic [ref=e50]: Openings
+        - generic [ref=e51]:
+          - img [ref=e52]
+          - generic [ref=e54]: Jul 12
+          - generic [ref=e55]: Closes
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "About the role" [level=2] [ref=e58]
+          - paragraph [ref=e59]: Northwind builds logistics software trusted by 400+ operators. We are a remote-first team that values calm, focused work.
+        - generic [ref=e60]:
+          - heading "What you'll do" [level=2] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - img [ref=e65]
+              - generic [ref=e67]: Build and ship features across our Next.js web app
+            - listitem [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e72]: Collaborate on a shared component library
+            - listitem [ref=e73]:
+              - img [ref=e75]
+              - generic [ref=e77]: Write tests and care about accessibility
+        - generic [ref=e78]:
+          - heading "What we're looking for" [level=2] [ref=e79]
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e85]: Solid React + TypeScript experience
+            - listitem [ref=e86]:
+              - img [ref=e88]
+              - generic [ref=e90]: An eye for detail and performance
+            - listitem [ref=e91]:
+              - img [ref=e93]
+              - generic [ref=e95]: Comfortable in an async, remote team
+        - generic [ref=e96]:
+          - heading "Skills" [level=2] [ref=e97]
+          - generic [ref=e98]:
+            - generic [ref=e99]: React
+            - generic [ref=e100]: TypeScript
+            - generic [ref=e101]: Next.js
+        - generic [ref=e102]:
+          - generic [ref=e103]: "N"
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Northwind
+            - paragraph [ref=e106]: Posted 5h ago
+          - generic [ref=e107]: Follow
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - paragraph [ref=e110]: Salary
+        - paragraph [ref=e111]: ৳70k–110k
+      - link "Apply now" [ref=e112] [cursor=pointer]:
+        - /url: /apply/frontend-engineer
+  - button "Open Next.js Dev Tools" [ref=e118] [cursor=pointer]:
+    - img [ref=e119]
+  - alert [ref=e122]

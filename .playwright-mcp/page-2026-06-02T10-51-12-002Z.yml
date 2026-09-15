@@ -1,0 +1,60 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - button "Go back" [ref=e6]:
+        - img [ref=e7]
+      - generic [ref=e9]:
+        - heading "Apply" [level=1] [ref=e10]
+        - paragraph [ref=e11]: Frontend Engineer (React)
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: "N"
+        - generic [ref=e15]:
+          - paragraph [ref=e16]: Frontend Engineer (React)
+          - paragraph [ref=e17]: Northwind · ৳70k–110k
+      - generic [ref=e18]:
+        - heading "Your profile" [level=2] [ref=e19]
+        - generic [ref=e20]:
+          - generic [ref=e21]: BP
+          - generic [ref=e22]:
+            - paragraph [ref=e23]: Biplab Paul
+            - paragraph [ref=e24]: Product Designer · Dhaka, Bangladesh
+          - link "Edit profile" [ref=e25] [cursor=pointer]:
+            - /url: /profile/edit
+            - img [ref=e26]
+      - generic [ref=e28]:
+        - heading "Resume / CV" [level=2] [ref=e29]
+        - generic [ref=e30]:
+          - img [ref=e32]
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: Biplab_Paul_CV.pdf
+            - paragraph [ref=e37]: 280 KB · Updated Jun 10
+          - img [ref=e39]
+        - button "Upload a different file" [ref=e41]:
+          - img [ref=e42]
+          - text: Upload a different file
+      - generic [ref=e47]:
+        - generic [ref=e48]: Cover letter
+        - textbox "Cover letter A short, genuine note goes a long way." [ref=e49]:
+          - /placeholder: Hi Northwind team, I'm excited to apply because…
+        - generic [ref=e50]: A short, genuine note goes a long way.
+      - generic [ref=e51]:
+        - heading "Quick questions" [level=2] [ref=e52]
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - paragraph [ref=e55]: Years of relevant experience?
+            - generic [ref=e56]:
+              - button "0–1" [ref=e57]
+              - button "2–3" [ref=e58]
+              - button "4–6" [ref=e59]
+              - button "7+" [ref=e60]
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: When can you start?
+            - generic [ref=e63]:
+              - button "Immediately" [ref=e64]
+              - button "2 weeks" [ref=e65]
+              - button "1 month" [ref=e66]
+    - link "Submit application" [ref=e68] [cursor=pointer]:
+      - /url: /confirmation?job=frontend-engineer
+  - button "Open Next.js Dev Tools" [ref=e74] [cursor=pointer]:
+    - img [ref=e75]

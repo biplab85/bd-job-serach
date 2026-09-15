@@ -1,0 +1,6 @@
+- generic [ref=e2]:
+  - heading "For best view please scan this QR code" [level=3] [ref=e5]
+  - iframe [ref=e8]:
+    - generic [ref=f2e3]:
+      - strong [ref=f2e4]: 192.168.0.103
+      - text: took too long to respond.
